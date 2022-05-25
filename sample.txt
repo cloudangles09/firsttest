@@ -1,0 +1,91 @@
+/////manoj sir   trying to run tomcat and jdk in cmd////////////
+
+
+Microsoft Windows [Version 10.0.19043.1706]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\MounikaDindi>cd JavaEx
+
+C:\Users\MounikaDindi\JavaEx>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 16F2-2D68
+
+ Directory of C:\Users\MounikaDindi\JavaEx
+
+23-05-2022  16:29    <DIR>          .
+23-05-2022  16:29    <DIR>          ..
+05-05-2022  15:42    <DIR>          .metadata
+10-05-2022  16:14    <DIR>          Cli
+06-05-2022  11:56    <DIR>          ClsMtd
+06-05-2022  12:43    <DIR>          Construct
+10-05-2022  16:05    <DIR>          ex
+09-05-2022  12:38    <DIR>          file
+10-05-2022  10:21    <DIR>          FirstProject
+23-05-2022  16:52    <DIR>          Hello
+23-05-2022  12:55    <DIR>          Login
+06-05-2022  09:56    <DIR>          oop
+06-05-2022  10:50    <DIR>          oop1
+18-05-2022  17:00    <DIR>          practice
+06-05-2022  14:26    <DIR>          prjt
+06-05-2022  15:23    <DIR>          prjt1
+10-05-2022  11:17    <DIR>          sample
+10-05-2022  16:06    <DIR>          Ser
+20-05-2022  14:47    <DIR>          server
+22-05-2022  18:21    <DIR>          Servers
+23-05-2022  16:49    <DIR>          Servers2
+20-05-2022  14:27    <DIR>          servlet
+10-05-2022  16:05    <DIR>          socket
+13-05-2022  10:33    <DIR>          Sql
+               0 File(s)              0 bytes
+              24 Dir(s)  447,798,824,960 bytes free
+
+C:\Users\MounikaDindi\JavaEx>cd ..
+
+C:\Users\MounikaDindi>cd apache-tomcat-8.0.23-windows-x64\apache-tomcat-8.0.23\bin
+
+C:\Users\MounikaDindi\apache-tomcat-8.0.23-windows-x64\apache-tomcat-8.0.23\bin>set JAVA_HOME=c:\Users\MounikaDindi\jdk-18.0.1.1
+
+C:\Users\MounikaDindi\apache-tomcat-8.0.23-windows-x64\apache-tomcat-8.0.23\bin>set CATALINA_HOME=c:\Users\MounikaDindi\apache-tomcat-8.0.23-windows-x64\apache-tomcat-8.0.23
+
+C:\Users\MounikaDindi\apache-tomcat-8.0.23-windows-x64\apache-tomcat-8.0.23\bin>startup.bat
+Using CATALINA_BASE:   "c:\Users\MounikaDindi\apache-tomcat-8.0.23-windows-x64\apache-tomcat-8.0.23"
+Using CATALINA_HOME:   "c:\Users\MounikaDindi\apache-tomcat-8.0.23-windows-x64\apache-tomcat-8.0.23"
+Using CATALINA_TMPDIR: "c:\Users\MounikaDindi\apache-tomcat-8.0.23-windows-x64\apache-tomcat-8.0.23\temp"
+Using JRE_HOME:        "c:\Users\MounikaDindi\jdk-18.0.1.1"
+Using CLASSPATH:       "c:\Users\MounikaDindi\apache-tomcat-8.0.23-windows-x64\apache-tomcat-8.0.23\bin\bootstrap.jar;c:\Users\MounikaDindi\apache-tomcat-8.0.23-windows-x64\apache-tomcat-8.0.23\bin\tomcat-juli.jar"
+C:\Users\MounikaDindi\apache-tomcat-8.0.23-windows-x64\apache-tomcat-8.0.23\bin>startup.bat
+Using CATALINA_BASE:   "c:\Users\MounikaDindi\apache-tomcat-8.0.23-windows-x64\apache-tomcat-8.0.23"
+Using CATALINA_HOME:   "c:\Users\MounikaDindi\apache-tomcat-8.0.23-windows-x64\apache-tomcat-8.0.23"
+Using CATALINA_TMPDIR: "c:\Users\MounikaDindi\apache-tomcat-8.0.23-windows-x64\apache-tomcat-8.0.23\temp"
+Using JRE_HOME:        "c:\Users\MounikaDindi\jdk-18.0.1.1"
+Using CLASSPATH:       "c:\Users\MounikaDindi\apache-tomcat-8.0.23-windows-x64\apache-tomcat-8.0.23\bin\bootstrap.jar;c:\Users\MounikaDindi\apache-tomcat-8.0.23-windows-x64\apache-tomcat-8.0.23\bin\tomcat-juli.jar"
+C:\Users\MounikaDindi\apache-tomcat-8.0.23-windows-x64\apache-tomcat-8.0.23\bin>cd ..
+
+C:\Users\MounikaDindi\apache-tomcat-8.0.23-windows-x64\apache-tomcat-8.0.23>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 16F2-2D68
+
+ Directory of C:\Users\MounikaDindi\apache-tomcat-8.0.23-windows-x64\apache-tomcat-8.0.23
+
+22-05-2022  18:17    <DIR>          .
+22-05-2022  18:17    <DIR>          ..
+22-05-2022  18:17    <DIR>          bin
+22-05-2022  18:17    <DIR>          conf
+22-05-2022  18:17    <DIR>          lib
+22-05-2022  18:17            58,034 LICENSE
+19-05-2015  15:58    <DIR>          logs
+22-05-2022  18:17             1,442 NOTICE
+22-05-2022  18:17             6,913 RELEASE-NOTES
+22-05-2022  18:17            16,682 RUNNING.txt
+22-05-2022  18:17    <DIR>          temp
+22-05-2022  18:17    <DIR>          webapps
+19-05-2015  15:58    <DIR>          work
+               4 File(s)         83,071 bytes
+               9 Dir(s)  447,794,507,776 bytes free
+
+C:\Users\MounikaDindi\apache-tomcat-8.0.23-windows-x64\apache-tomcat-8.0.23>java -version
+java version "18.0.1.1" 2022-04-22
+Java(TM) SE Runtime Environment (build 18.0.1.1+2-6)
+Java HotSpot(TM) 64-Bit Server VM (build 18.0.1.1+2-6, mixed mode, sharing)
+
+C:\Users\MounikaDindi\apache-tomcat-8.0.23-windows-x64\apache-tomcat-8.0.23>java -version
